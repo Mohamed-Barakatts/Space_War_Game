@@ -6,7 +6,7 @@ pygame.font.init()
 
 
 # Global Vars & Conts ======================================
-WIDTH, HEIGHT = 1500, 700
+WIDTH, HEIGHT = 1588, 816
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Shooter Game | Mo")
 main_font = pygame.font.SysFont("comicsans", 35)
@@ -39,27 +39,27 @@ def draw_lost():
 
 # Loading Assets =================================================
 RED_SPACE_SHIP = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_ship_red_small.png"))
+    os.path.join(r"assets", "pixel_ship_red_small.png"))
 GREEN_SPACE_SHIP = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_ship_green_small.png"))
+    os.path.join(r"assets", "pixel_ship_green_small.png"))
 BLUE_SPACE_SHIP = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_ship_blue_small.png"))
+    os.path.join(r"assets", "pixel_ship_blue_small.png"))
 
 # Player Ship
 YELLOW_SPACE_SHIP = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_ship_yellow.png"))
+    os.path.join(r"assets", "pixel_ship_yellow.png"))
 
 # Lasers
-RED_LASER = pygame.image.load(os.path.join(r"Space_War_Game\assets", "pixel_laser_red.png"))
+RED_LASER = pygame.image.load(os.path.join(r"assets", "pixel_laser_red.png"))
 GREEN_LASER = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_laser_green.png"))
-BLUE_LASER = pygame.image.load(os.path.join(r"Space_War_Game\assets", "pixel_laser_blue.png"))
+    os.path.join(r"assets", "pixel_laser_green.png"))
+BLUE_LASER = pygame.image.load(os.path.join(r"assets", "pixel_laser_blue.png"))
 YELLOW_LASER = pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "pixel_laser_yellow.png"))
+    os.path.join(r"assets", "pixel_laser_yellow.png"))
 
 # Background
 BG = pygame.transform.scale(pygame.image.load(
-    os.path.join(r"Space_War_Game\assets", "background2.jpg")), (WIDTH, HEIGHT))
+    os.path.join(r"assets", "background2.jpg")), (WIDTH, HEIGHT))
 
 
 # Ship Classes ========================================================
